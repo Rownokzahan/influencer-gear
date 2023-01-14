@@ -109,6 +109,11 @@ nav {
     .banner {
         flex-direction: column-reverse;
     }
+
+    .banner-title {
+        font-size: 28px;
+        text-align: center;
+    }
 }
 
 
@@ -126,7 +131,7 @@ section {
     flex-wrap: wrap;
 }
 
-/* ----------popular--------- */
+/* -------------------------popular---------------------------- */
 .poular-title {
     text-align: center;
     font-weight: 600;
@@ -183,6 +188,10 @@ section {
 @media screen and (max-width:576px) {
     .popular {
         grid-template-columns: 1fr;
+    }
+
+    .popular-item .title {
+        font-weight: 700;
     }
 }
 
